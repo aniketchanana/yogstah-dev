@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Yoga</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Yogstah</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#routine" class="nav__link">Corporate session</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#follow" class="nav__link">Follow</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Improve Your
+              <div class="home__title-box">Lifestyle</div>
+              with yoga
+
+              <img src="assets/img/star-img.svg" alt="home image" />
+            </h1>
+
+            <p class="home__description">
+              Calm your mind and body with yoga.
+
+              <img src="assets/img/circle-img.svg" alt="home image" />
+            </p>
+
+            <a href="tel:8708159865" class="button">
+              Connect with us <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <img
+            src="assets/img/home-yoga.png"
+            alt="home image"
+            class="home__img"
+          />
+        </div>
+      </section>
+
+      <!--==================== LIST ====================-->
+      <section class="list section">
+        <div class="list__container container grid">
+          <div class="list__content">
+            <h1 class="list__number">#certified</h1>
+
+            <div class="list__blob">
+              <img src="assets/img/list-yoga.png" alt="list image" />
+            </div>
+          </div>
+
+          <div class="list__data">
+            <p class="list__description">
+              Learn from a certified yoga instructor. Practice asanas,
+              meditation, breathing techniques, and more for a holistic wellness
+              journey.
+
+              <img src="assets/img/star-2-img.svg" alt="list image" />
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ROUTINE ====================-->
+      <section class="routine section" id="routine">
+        <div class="routine__container container grid">
+          <div class="routine__data">
+            <h2 class="section__title">
+              Improve productivity of your employees
+            </h2>
+
+            <p class="routine__description">
+              Boost employee productivity with our tailored corporate sessions.
+              Choose from 1-day, 5-day, and 15-day workshops to foster a healthy
+              culture within your organization.
+            </p>
+
+            <a href="#" class="button">
+              Get Started Free <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="session_video_container">
+            <video
+              src="/assets/img/session.mp4"
+              class="session_video"
+              muted
+              autoplay
+            />
+            <div class="routine__box-2">
+              <i class="ri-run-fill routine__icon"></i>
+              <span class="routine__title">Professional Trainer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FOLLOW ====================-->
+      <section class="follow section" id="follow">
+        <div class="follow__container container grid">
+          <div class="follow__content-1">
+            <div class="follow__data">
+              <h2 class="section__title follow__title">
+                Follow on Instagram
+                <div>#YOGA</div>
+              </h2>
+
+              <a
+                href="https://instagram.com/disha_kumra/"
+                class="button follow__button"
+              >
+                @disha_kumra <i class="ri-instagram-line"></i>
+              </a>
+            </div>
+
+            <img
+              src="assets/img/follow-yoga-1.png"
+              alt="follow image"
+              class="follow__img-1"
+            />
+            <img
+              src="assets/img/follow-yoga-2.png"
+              alt="follow image"
+              class="follow__img-2"
+            />
+          </div>
+
+          <div class="follow__content-2">
+            <img
+              src="assets/img/follow-yoga-3.png"
+              alt="follow image"
+              class="follow__img-3"
+            />
+            <img
+              src="assets/img/follow-yoga-4.png"
+              alt="follow image"
+              class="follow__img-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== JOIN ====================-->
+      <section class="join section">
+        <!-- <div class="join__container container grid">
+          <div class="join__content">
+            <div>
+              <h2 class="join__title">Join our newsletter</h2>
+
+              <p class="join__description">
+                Subscribe to our newsletter to be aware of many things on
+                discounts, gifts, training and much more. Just enter your email.
+              </p>
+            </div>
+
+            <form action="" class="join__form">
+              <input
+                type="email"
+                placeholder="For latest update send mail"
+                class="join__input"
+              />
+
+              <button class="button join__button">
+                Subscribe <i class="ri-arrow-right-line"></i>
+              </button>
+            </form>
+          </div>
+        </div> -->
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div>
+            <a href="#" class="footer__logo">Yogstah</a>
+
+            <p class="footer__description">
+              Take care of your health and <br />
+              your mind with the best <br />
+              Yoga classes.
+            </p>
+          </div>
+
+          <div class="footer__data grid">
+            <div>
+              <h3 class="footer__title">Address</h3>
+
+              <p class="footer__info">
+                110 Pocket B, Sector 22 <br />
+                Gurugram, Haryana
+              </p>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Contact</h3>
+
+              <p class="footer__info">
+                +91-8708159865 <br />
+                dishakumra4@gmail.com
+              </p>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Yoga classes</h3>
+
+              <p class="footer__info">
+                <b>Morning</b>
+                <br />
+                Mon - Sat (6:00AM - 7:30AM)
+              </p>
+              <br />
+              <p class="footer__info">
+                <b>Evening</b>
+                <br />
+                Mon - Sat (6:00PM - 7:30PM)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <ul class="footer__social">
+            <li>
+              <a
+                href="https://www.facebook.com/disha.kumra.5"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/disha_kumra"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/@Disha_Kumra_Yoga/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-youtube-line"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:dishakumra4@gmail.com"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-mail-line"></i>
+              </a>
+            </li>
+          </ul>
+
+          <span class="footer__copy">
+            &#169; Copyright yogstah. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
